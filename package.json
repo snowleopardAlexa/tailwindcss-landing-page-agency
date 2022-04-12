@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-landing-page-agency",
+  "version": "1.0.0",
+  "description": "This is a landing page built for an agency - it is a crash course on TailwindCSS.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowleopardAlexa/tailwindcss-landing-page-agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowleopardAlexa/tailwindcss-landing-page-agency/issues"
+  },
+  "homepage": "https://github.com/snowleopardAlexa/tailwindcss-landing-page-agency#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
