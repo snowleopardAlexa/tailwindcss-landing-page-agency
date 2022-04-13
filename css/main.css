@@ -505,7 +505,95 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-byzantinePurple {
+  --tw-bg-opacity: 1;
+  background-color: hsl(309 77% 40% / var(--tw-bg-opacity));
+}
+
+.bg-deepPurple {
+  --tw-bg-opacity: 1;
+  background-color: hsl(268 88% 36% / var(--tw-bg-opacity));
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.text-byzantinePurple {
+  --tw-text-opacity: 1;
+  color: hsl(309 77% 40% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-trypanBlue:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(263 87% 35% / var(--tw-bg-opacity));
+}
+
+.hover\:text-byzantinePurple:hover {
+  --tw-text-opacity: 1;
+  color: hsl(309 77% 40% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
 }

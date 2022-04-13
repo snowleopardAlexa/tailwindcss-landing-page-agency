@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Agency</title>
-    <link href="css/main.css" rel="stylesheet" >
-</head>
-<body>
-   <!--navbar-->
-   <nav class="relative container mx-auto bg-red-600">HELLO</nav>
-</body>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="relative container mx-auto p-6">
+      <!-- flex container-->
+      <div class="flex items-center justify-between">
+        <div class="py-2">
+          <!--logo-->
+          <img src="img/circles.png" alt="logo" width="50px" height="50px" />
+        </div>
+        <!--menu items-->
+        <div class="hidden md:flex space-x-6">
+           <a href="#" class="hover:text-byzantinePurple">Pricing</a>  
+           <a href="#" class="hover:text-byzantinePurple">Product</a> 
+           <a href="#" class="hover:text-byzantinePurple">About</a> 
+           <a href="#" class="hover:text-byzantinePurple">Careers</a> 
+           <a href="#" class="hover:text-byzantinePurple">Community</a> 
+        </div>
+        <!--button-->
+        <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-deepPurple rounded-full baseline hover:bg-trypanBlue">
+            Get Started
+        </a>
+      </div>
+    </nav>
+  </body>
 </html>
